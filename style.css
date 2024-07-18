@@ -27,12 +27,22 @@
   }
     }
   
-
   .sectionContainer {
     border: solid black;
     border-radius: 10%;
-    height: 40vh;
+    height: 60vh;
     margin: 1em;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-image:url('Images/RoadsterSpecs.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .sectionContainer::after {
+      content: "Features and Specs:";
+      
+
   }
 
   .logo {
@@ -86,15 +96,25 @@
     border: solid  blue;
     height: 40vh;
     background-image: url('Images/Rolls_Royce_Wraith.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
+      background-position: center;
+      background-repeat: no-repeat;
   }
 
   .sectionContainer {
     border: solid blue;
     border-radius: 10%;
-    height: 40vh;
+    height: 60vh;
     margin: 1em;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+  background-image:url('Images/Rollsspec.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+  .sectionContainer::after {
+      content: "Features and Specs:";
+  }
+     
   }
 
   .logo {
@@ -148,15 +168,24 @@
     border: solid yellow;
     height: 40vh;
     background-image: url('images/Flintstonemobile.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
+      background-position: center;
+      background-repeat: no-repeat;
   }
 
   .sectionContainer {
     border: solid yellow;
     border-radius: 10%;
-    height: 40vh;
+    height: 60vh;
     margin: 1em;
+    text-align: center;
+    color: white;
+    background-image:url('Images/flintstonespecs.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .sectionContainer::after {
+      content: "Features and Specs:";
+
   }
 
   .logo {
